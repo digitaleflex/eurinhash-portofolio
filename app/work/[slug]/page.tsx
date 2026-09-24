@@ -47,6 +47,17 @@ const data: Record<string, Project> = {
     outcome: "Les résultats et métriques seront documentés à partir des données vérifiées du projet.",
     status: "Étude de cas en construction",
   },
+  mecanotic-auto: {
+    name: "Mecanotic Auto",
+    type: "Commerce automobile digital",
+    summary: "Une expérience digitale de distribution automobile pensée pour rendre le catalogue et la conversion plus lisibles.",
+    problem: "Transformer un catalogue automobile riche en une expérience de découverte, de confiance et de conversion claire.",
+    areas: ["Commerce", "UX", "WordPress", "WooCommerce"],
+    decision: "Structurer l'expérience autour des catégories, de la recherche, de la réassurance et de parcours de contact simples.",
+    security: "Limiter l'exposition des données opérationnelles et garder les interactions commerciales contrôlées par les rôles et les systèmes du site.",
+    outcome: "Le système est présenté ici comme un cas de conception ; les résultats publics seront ajoutés uniquement lorsqu'ils seront vérifiés.",
+    status: "Système client / documentation en cours",
+  },
 };
 
 export default async function CaseStudy({ params }: { params: Promise<{ slug: string }> }) {
