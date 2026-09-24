@@ -23,6 +23,13 @@ const work = [
     href: "/work/edusync",
     areas: ["Next.js", "PostgreSQL", "Workflows"],
   },
+  {
+    name: "Mecanotic Auto",
+    type: "Commerce automobile digital",
+    summary: "Une expérience digitale de distribution automobile pensée pour rendre le catalogue et la conversion plus lisibles.",
+    href: "/work/mecanotic-auto",
+    areas: ["Commerce", "UX", "WordPress"],
+  },
 ];
 
 export default function Work() {
@@ -31,7 +38,7 @@ export default function Work() {
       <PageHero eyebrow="02 / Projets" title="Projets sélectionnés" description="Des projets où l’intention produit, les décisions d’ingénierie et l’architecture des systèmes se rencontrent." />
       <section className="mx-auto max-w-7xl px-6 py-20 md:px-10 md:py-28">
         <div className="mb-8 flex items-center justify-between border-b border-white/[0.1] pb-5 font-mono text-[0.65rem] uppercase tracking-[0.16em] text-white/35">
-          <span>Index / 03 projets</span>
+          <span>Index / 04 systèmes</span>
           <span>Du problème au système</span>
         </div>
         <div className="divide-y divide-white/[0.1] border-y border-white/[0.1]">
