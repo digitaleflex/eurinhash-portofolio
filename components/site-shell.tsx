@@ -1,11 +1,11 @@
 import Link from "next/link";
 
 const links = [
-  ["Work", "/work"],
+  ["Projets", "/work"],
   ["Architecture", "/architecture"],
-  ["Labs", "/labs"],
+  ["Laboratoires", "/labs"],
   ["Journal", "/journal"],
-  ["About", "/about"],
+  ["À propos", "/about"],
 ];
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
@@ -22,7 +22,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
             ))}
           </nav>
           <Link href="/contact" className="border border-white/15 px-4 py-2 text-xs transition hover:border-[#c5f441]/60 hover:text-[#c5f441]">
-            Start a conversation
+            Parlons de votre projet
           </Link>
         </div>
       </header>
