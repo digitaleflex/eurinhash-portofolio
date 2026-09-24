@@ -1,6 +1,2 @@
-export default function AboutPage() {
-  return <Page title="About" eyebrow="01 / About" intro="A systems-oriented technology builder working across software, cloud, security and applied AI." />;
-}
-function Page({title,eyebrow,intro}:{title:string;eyebrow:string;intro:string}) {
-  return <main className="min-h-screen bg-ink text-paper px-6 py-10 md:px-10"><a href="/" className="text-sm text-white/50">← Home</a><section className="mx-auto max-w-6xl py-32"><p className="text-xs uppercase tracking-[.28em] text-white/40">{eyebrow}</p><h1 className="mt-6 text-6xl tracking-[-.05em] md:text-8xl">{title}</h1><p className="mt-10 max-w-2xl text-xl leading-8 text-white/55">{intro}</p></section></main>;
-}
+import { PageHero } from "@/components/page-hero";
+export default function About(){return <main><PageHero eyebrow="01 / About" title="About" description="A systems-oriented technology builder working across software engineering, cloud infrastructure, cybersecurity, applied AI and digital products."/><section className="mx-auto grid max-w-7xl gap-12 px-6 py-24 md:grid-cols-3 md:px-10 md:py-32"><div className="text-xs uppercase tracking-[.25em] text-white/30">The approach</div><div className="md:col-span-2"><h2 className="text-3xl leading-tight tracking-[-.04em] md:text-5xl">Curiosity starts the work. Architecture makes it durable.</h2><p className="mt-8 max-w-2xl leading-8 text-white/50">The focus is not collecting technologies. It is understanding constraints, making systems legible and building solutions that can evolve.</p></div></section></main>}
